@@ -40,14 +40,13 @@ Incident Triage Summary
 2026-01-03 [MEDIUM] port_scan on web-server-1 -> 185.220.101.6
    Classification: external
 
-========================================
 Total alerts processed: 5
 HIGH:   1
 MEDIUM: 2
 LOW:    2
 Internal: 1 | External: 2 | N/A: 2
 
-Report saved to incident_summary.txt
+Report saved to incident_summary.txts
 Concepts Practiced
 Python Classes and Objects: Alert class bundles data and behavior
 init: constructor that initializes each alert
