@@ -1,0 +1,24 @@
+Incident Triage Summary
+========================================
+
+2026-01-03 [LOW] login_failure on bob -> 8.8.8.8
+   Classification: external
+
+2026-01-03 [LOW] login_success on alice -> 192.168.1.25
+   Classification: internal
+
+2026-01-03 [HIGH] file_hash_detected on workstation-7 -> 275a021bbfb6483e2f3b2ed34a59dcdf57f7e3c2efb8fe2bc5e756e508d2f5a9
+   Classification: N/A
+
+2026-01-03 [MEDIUM] dns_query on finance-laptop -> ms-secure-login.net
+   Classification: N/A
+
+2026-01-03 [MEDIUM] port_scan on web-server-1 -> 185.220.101.6
+   Classification: external
+
+========================================
+Total alerts processed: 5
+HIGH:   1
+MEDIUM: 2
+LOW:    2
+Internal: 1 | External: 2 | N/A: 2
