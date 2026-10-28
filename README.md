@@ -1,17 +1,7 @@
 # SecOps Code:You Python Week 6
 
-Incident triage tracker classifying security alerts.
+Python 3 incident triage tracker. It reads security alerts, models each one with an Alert class, classifies severity and whether an IP is internal or external, and writes a summary.
 
-## Description
-Reads alerts, models them with an Alert class, classifies severity and internal vs external IPs, and writes a summary.
-
-## Technologies
-- Python 3
-
-## Usage
 ```bash
 python3 incident_tracker.py
 ```
-
-## Status
-Completed Code:You Week 6 assignment.
